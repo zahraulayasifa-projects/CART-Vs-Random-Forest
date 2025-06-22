@@ -1,5 +1,4 @@
-bankloan <- read.csv("D:/1. KULIAH PER SEMESTER/Kuliah Semester 
-6/Data Mining/SETELAH UTS/3. bankloan.csv", header=TRUE) 
+bankloan <- read.csv("D:/1. KULIAH PER SEMESTER/Kuliah Semester 6/Data Mining/SETELAH UTS/3. bankloan.csv", header=TRUE) 
 head(bankloan) 
 #set.seed(20) 
 acak <- sample(1:nrow(bankloan), 450, replace=FALSE) 
